@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "make test",
-	"start" : "node connect.js"
+	"start" : "node server.js"
   },
   "repository": {
     "type": "git",
