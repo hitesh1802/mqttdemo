@@ -1,0 +1,35 @@
+{
+  "name": "mqttdemo",
+  "version": "1.0.0",
+  "description": "Sample application",
+  "main": "connect.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "body-parser": "^1.14.0",
+    "ejs": "^2.3.4",
+    "mqtt": "^1.4.1",
+    "socket.io": "^1.3.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test",
+	"start" : "connect.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitesh1802/mqttdemo.git"
+  },
+  "keywords": [
+    "Mqtt",
+    "demo"
+  ],
+  "author": "Hitesh Dobariya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitesh1802/mqttdemo/issues"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "homepage": "https://github.com/hitesh1802/mqttdemo#readme"
+}
